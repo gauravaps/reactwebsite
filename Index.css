@@ -1,0 +1,295 @@
+h1{
+    color: red;
+}
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: right;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+   
+   /* Current/active navbar link  */
+  .active {
+    background-color: #04AA6D;
+  } 
+  
+  
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  
+  .navbar h1.split {
+    float: left;
+    
+    color: white;
+    margin-left: 20px;
+    overflow: auto;
+    box-shadow: 1px 1px 3px 3px ; 
+    text-decoration: none;
+    
+  }
+  .navbar .split:hover{
+    color: lightcyan;
+    background-color: black;
+    display: block;
+
+
+
+
+  }
+  
+  .pic{
+    height: 50px;
+    width: 50px;
+    
+    margin-left:  25px; 
+    text-align: center;
+    overflow: hidden;
+    border: 5px solid blue;
+    border: none;
+    padding-top: 10px;
+    border-radius: 100px; 
+    
+  }
+  #header{
+    width: 100%;
+    height: 80vh;
+    margin-top: 25px;
+  }
+  #header h1{
+    margin: 0 0 15px 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+
+  }
+  .brand{
+    color: #3498db;
+    
+    
+  }
+  #header h2{
+    color: #484848;
+    font-size: 24px;
+  }
+  #header .btn-get{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #3498db;
+    border: 2px solid #3498db;
+    text-decoration: none;
+  }
+  #header .btn-get:hover{
+    background-color: #3498db;
+    color: #fff;
+  }
+  .head-pic{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: -15%;
+    
+    
+    
+    
+     
+  }
+#header .img-fluid{
+  width: 400px;
+  height: 250px;
+  margin: 0 40px 40px 30px; 
+  
+
+  
+  
+  
+  
+}
+
+
+
+ 
+  #header .img-fluid{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  @-webkit-keyframes up-down{
+    0%{
+      transform: translatey(10px);
+    }
+    100%{
+      transform: translateY(-10px);
+    }
+  }
+  @keyframes up-down{
+    0%{
+      transform: translatey(10px);
+    }
+    100%{
+      transform: translateY(-10px);
+    }
+  }  
+
+  .piccard{
+    width: 250px;
+    height: 100px;
+    
+    
+  }
+
+  .cardm-2{
+    border: 2px solid black;
+    margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+  }
+.cardm-1{
+  margin-left: 15px;
+}
+
+  .card-body{
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  .btn-secondary{
+    font-size: large;
+    border: 1px solid #3498db;
+    border-radius: 9px;
+    text-decoration: none;
+    color: #3498db;
+    
+  }.btn-secondary:hover{
+  
+    background-color: #3498db;
+    color: #fff;
+  }
+
+/* 
+contact css  */
+.container{
+  align-items: center;
+  text-align: center;
+  background-color: #555;
+  
+}
+
+.h3{
+  font-family:'Times New Roman', Times, serif;
+  font-size:30px;
+  text-shadow: 5px 5px 4px;
+  color: #fff;
+  
+  
+}
+.center{
+  border: 2 px solid black;
+}
+.btnname{
+  color:black;
+  
+  font-size: larger;
+  font-style: italic;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.field{
+  color:black;
+  font-size: 20px;
+}
+.btnname:hover{
+  cursor: pointer;
+  background-color:#484848;
+  color: #fff;
+
+}
+  
+  
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  
+  width: 100%;
+  
+  height: fit-content;
+  color:whitesmoke;
+  text-align: center;
+  border: 1px solid black;
+  background-color: #484848;
+  height: 35px;
+
+}
+
+ .gauravtech{
+  color: #04AA6D;
+  
+  
+} 
+.my-3{
+  color: #04AA6D;
+  margin-top: 2%;
+}
+
+.h-1{
+  
+  padding-top: 5%;
+
+}
+.fa-facebook{
+  color:blue;
+  font-size:50px;
+  font-weight: bold;
+  background-color: #fff;
+}
+.fa-youtube{
+  color: rgba(184, 6, 145, 0.76);
+  background-color: aliceblue;
+}
+.fa-twitter{
+  color: #3498db;
+  background-color: #fff;
+}
+.fa-instagram{
+  color: red;
+  background-color: #fff;
+}
+.fa-linkedin{
+  color: blue;
+  background-color: #fff;
+}
+
+.icon{
+  color:white;
+  font-size:25px;
+}
+
+/* .icon{
+  padding-top: 1%;
+  font-size: large;
+} */
